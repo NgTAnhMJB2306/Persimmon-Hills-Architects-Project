@@ -1,0 +1,90 @@
+/* Header Navbar */
+.header {
+    height: var(--header-height);
+    background-color: var(--white-color);
+    z-index: 1;
+}
+
+.header__navbar {
+    display: flex;
+    height: var(--header-height);
+    justify-content: space-between;
+}
+
+.header__navbar-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    margin: 29px 0px;
+}
+
+.header__navbar-item {
+    color: var(--text-color);
+    padding: 0 10px;
+    position: relative;
+    margin: 0 2px;
+    font-weight: lighter;
+}
+
+.header__navbar-item-link {
+    text-decoration: none;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+.header__navbar-icon-link {}
+
+.header__navbar-icon {
+    height: 36px;
+    width: 36px;
+}
+
+.header__navbar-item,
+.header__navbar-item-link,
+.header__navbar-icon-link {
+    display: flex;
+    align-items: center;
+}
+
+.header__navbar-item:hover,
+.header__navbar-item-link:hover,
+.header__navbar-icon-link:hover {
+    color: var(--hover-color);
+    cursor: pointer;
+    transition: all 0.8s ease-out;
+}
+
+.header__navbar-item-link-page {
+    color: var(--white-color);
+}
+
+/* Fixed Navbar  */
+.sticky {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Slider Show  */
+.slide {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 100%;
+}
+
+.slide-img {
+    /* display: none; */
+    height: 729px;
+    width: 100%;
+    object-fit: cover;
+    /* transition: ; */
+}
+
+.slider__description {
+    text-align: center;
+    margin-top: -400px;
+}
+
+.slider-img-logo {}

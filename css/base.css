@@ -1,0 +1,126 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #312B26;
+    --hover-color: #933F0B;
+    --text-h1-color: #A9A9A9;
+    --text-transfer-color: rgb(64, 64, 64);
+    --input-required: #8B0000;
+    --header-height: 85px;
+    --header-width: 979px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 15px;
+    height: var(--header-height);
+    font-weight: lighter;
+    font-family: "Helvetica-Light", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white-color);
+    margin: 0;
+}
+
+/* Fixed Navbar  */
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%
+}
+
+/* Responsive */
+.grid {
+    width: var(--header-width);
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Test */
+.grid__column-2 {
+    width: 16.666%;
+}
+
+.grid__column-3 {
+    width: 25%;
+}
+
+.grid__column-4 {
+    width: 33.333%;
+}
+
+.grid__column-5 {
+    width: 41.666%;
+}
+
+.grid__column-6 {
+    width: 50%;
+}
+
+.grid__column-7 {
+    width: 58.333%;
+}
+
+.grid__column-8 {
+    width: 66.666%;
+}
+
+.grid__column-9 {
+    width: 75%;
+}
+
+.grid__column-10 {
+    width: 83.333%;
+}
+
+#grid__content {
+    padding: 0 31px;
+}
+
+.page__on-about {
+    padding-left: 50px;
+    transition: all 0.5s ease-in;
+}
+
+.page__on-philosophy {
+    padding-left: 126px;
+    transition: all 0.5s ease-in;
+}
+
+.page__on-works {
+    padding-left: 247px;
+    transition: all 0.5s ease-in;
+}
+
+.page__on-projects {
+    padding-left: 328px;
+    transition: all 0.5s ease-in;
+}
+
+.page__on-publication {
+    padding-left: 433px;
+    transition: all 0.5s ease-in;
+}
+
+.page__on-contact {
+    padding-left: 555px;
+    transition: all 0.5s ease-in;
+}
+
+.footer {
+    height: 50px;
+}
